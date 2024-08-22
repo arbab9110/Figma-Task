@@ -1,0 +1,11 @@
+.content3 {
+  height: fit-content;
+  background-color: white;
+  padding: 1.5rem;
+  margin-top: -150px;
+}
+.title {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}

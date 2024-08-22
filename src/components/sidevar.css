@@ -1,0 +1,19 @@
+.item {
+  color: black;
+  font-size: 18px;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  gap: 0.5rem;
+  align-items: center;
+  display: flex;
+  }.item a {
+    text-decoration: none;
+}
+.item:hover {
+  border-left: 3px solid green;
+  background-color: rgba(0, 128, 0, 0.219);
+}
+.activeNav {
+  background-color: rgba(0, 128, 0, 0.219);
+  border-left: 3px solid green;
+}

@@ -1,0 +1,145 @@
+.account {
+  width: 500px;
+  height: fit-content;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem, 0rem;
+  padding: 1rem;
+}
+.account > form {
+  height: 100%;
+}
+.name-inputs {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0rem;
+  gap: 1rem;
+  width: 100%;
+}
+.account h1 {
+  display: flex;
+  align-self: flex-start;
+  color: rgb(39, 76, 95);
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+.main-div {
+  height: 92%;
+  width: 100%;
+  overflow: scroll;
+  margin-top: 10px;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+  padding: 5px;
+  height: fit-content;
+}
+.cardleave {
+  width: 100%;
+  border: 1px solid rgb(226, 219, 219);
+  height: 120px;
+}
+.card1-header1 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+.card1-image1 {
+  width: 37px;
+  height: 37px;
+  display: flex;
+  background-color: #e0e0e0;
+  border-radius: 50%;
+}
+.card1-title1 {
+  margin: 0;
+  font-size: 1.25rem;
+  display: flex;
+  color: #333;
+}
+.card1-body1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.1rem;
+}
+.card1-duration1,
+.card1-start-date1 {
+  margin: 0 2 4px 0;
+  font-size: 0.7rem;
+  color: #333;
+  display: flex;
+  align-self: flex-start;
+}
+.card1-button1 {
+  display: block;
+  width: 35%;
+  padding: 10px 0;
+  background-color: #0a7d0a;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 0.6rem;
+  cursor: pointer;
+}
+.edit {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.edit h1 {
+  align-self: center;
+}
+.list {
+  width: 200px;
+  height: 200px;
+  color: rgb(39, 76, 95);
+  margin-right: 50px;
+  margin-top: 50px;
+}
+.box{
+    display: flex;
+}
+.slide{
+    display: flex;
+    gap: 1.5rem;
+    padding: 2rem;
+}
+.slide a {
+    cursor: pointer;
+}
+.active{
+ border-bottom: 5px solid green;
+}
+.change{
+  width: 300px;
+  border-radius: 20px
+}
+.cancel{
+  margin-top: 10px;
+  width: 300px;
+  border-radius: 20px;
+  background-color: white;
+  color: #0a7d0a;
+  border: 0.5px solid green;
+
+}
+.cancel:hover{
+  background-color: rgba(0,0,0,0.1);
+}
+.edit-btn{
+  cursor: pointer;
+}
+.edit-btn:hover{
+  scale: 1.1;
+}

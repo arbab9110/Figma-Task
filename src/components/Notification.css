@@ -1,0 +1,18 @@
+.box1{
+    width: 500px;
+    height: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.interview1{
+    border-bottom: 0.5px solid rgb(179, 168, 168);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    
+}
+.notify{
+    display: flex;
+    gap: 1rem;
+}

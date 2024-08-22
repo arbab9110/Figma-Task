@@ -1,0 +1,241 @@
+.card {
+  width: 250px;
+  border: 1px solid white;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.right-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-bottom: 1px solid white;
+}
+.card-image {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(155, 150, 150);
+  border-radius: 50%;
+  margin: 16px;
+}
+.left-side {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+.card-title {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #333;
+  white-space: nowrap;
+}
+.card-para {
+  color: blue;
+  margin: 0;
+  margin-top: 4px;
+}
+.card1 {
+  width: 250px;
+  border: 1px solid white;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card1-header {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  border-bottom: 1px solid white;
+}
+.card1-image {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(155, 150, 150);
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.card1-title {
+  margin: 0;
+  font-size: 0.8rem;
+  margin-top: -20px;
+  color: #333;
+}
+.card1-para {
+  color: blue;
+  margin-left: -60px;
+  margin-bottom: -9px;
+}
+.card2 {
+  width: 250px;
+  border: 1px solid white;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card2-header {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  border-bottom: 1px solid white;
+}
+.card2-image {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(155, 150, 150);
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.card2-title {
+  margin: 0;
+  font-size: 0.8rem;
+  margin-top: -20px;
+  color: #333;
+}
+.card2-para {
+  color: blue;
+  margin-left: -55px;
+  margin-bottom: -9px;
+}
+.card3 {
+  width: 250px;
+  border: 1px solid white;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card3-header {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  border-bottom: 1px solid white;
+}
+.card3-image {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(155, 150, 150);
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.card3-title {
+  margin: 0;
+  font-size: 0.8rem;
+  margin-top: -20px;
+  color: #333;
+}
+.card3-para {
+  color: blue;
+  margin-left: -45px;
+  margin-bottom: -15px;
+}
+.card-container {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+.card4 {
+  width: 250px;
+  border: 1px solid white;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card4-header {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  border-bottom: 1px solid white;
+}
+.card4-image {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(155, 150, 150);
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.card4-title {
+  margin: 0;
+  font-size: 0.8rem;
+  margin-top: -20px;
+  color: #333;
+}
+.card4-para {
+  color: blue;
+  margin-left: -75px;
+  margin-bottom: -5px;
+}
+.card5 {
+  width: 250px;
+  border: 1px solid white;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card5-header {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  border-bottom: 1px solid white;
+}
+.card5-image {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(155, 150, 150);
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.card5-title {
+  margin: 0;
+  font-size: 0.8rem;
+  margin-top: -20px;
+  color: #333;
+}
+.card5-para {
+  color: blue;
+  margin-left: -70px;
+  margin-bottom: -5px;
+}
+.card6 {
+  width: 250px;
+  border: 1px solid white;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card6-header {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  border-bottom: 1px solid white;
+}
+.card6-image {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(155, 150, 150);
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.card6-title {
+  margin: 0;
+  font-size: 0.8rem;
+  margin-top: -20px;
+  color: #333;
+}
+.card6-para {
+  color: blue;
+  margin-left: -50px;
+  margin-bottom: -5px;
+}
+.chart {
+  width: 100%;
+  height: 300px;
+}
